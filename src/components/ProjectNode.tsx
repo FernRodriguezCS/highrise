@@ -22,10 +22,10 @@ export default function ProjectNode({ project, onPositionChange }: ProjectNodePr
       position={project.position}
 
       // react draggable specific
-      onStop={(_, data) => onPositionChange({ x: data.x, y: data.y })}
+      onDrag={(_, data) => onPositionChange({ x: data.x, y: data.y })}
     >
 
-      <article ref={(element) => { nodeRef.current = element; }} className="box inline-flex w-fit max-w-full flex-wrap items-center gap-x-3 gap-y-1.5 rounded-full border border-slate-200 bg-white px-4 py-2 shadow-sm shadow-slate-900/10">
+      <article ref={(element) => { nodeRef.current = element; }} className="box inline-flex w-fit max-w-full flex-wrap items-center gap-x-3 gap-y-1.5 rounded-full border border-slate-200 bg-white px-4 py-2 shadow-sm shadow-slate-900/10" style={{ position: "absolute", left: 0, top: 0 }}>
         <h2 className="break-words text-sm font-semibold leading-tight text-slate-900">
           {project.name}
         </h2>

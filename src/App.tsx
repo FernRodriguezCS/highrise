@@ -1,4 +1,6 @@
 import ProjectNode from './components/ProjectNode'
+import SidePanel from './components/SidePanel'
+import { NodeConnector } from './components/NodeConnector'
 import type { Project } from './entities/projectNode'
 import './App.css'
 import { useEffect, useState } from 'react'
@@ -83,15 +85,27 @@ function App() {
 
   return (
     <>
-      {projects.map(
-        (project) => (
+      {projects.map((project) => (
+        <div key={project.id} onClick={() => console.log(project)}>
           <ProjectNode
-            key={project.id}
             project={project}
             onPositionChange={(nextPosition) => handlePositionChange(project.id, nextPosition)}
           />
-        )
-      )}
+          <NodeConnector
+            from={{
+              x: project.position.x + 16,
+              y: project.position.y + 16
+            }}
+            to={{ x: 900, y: 600 }}
+            color='gray'
+          />
+        </div>
+      ))}
+
+
+      {/* Side Panel Component */}
+      <SidePanel />
+
     </>
   )
 }
