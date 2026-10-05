@@ -83,10 +83,12 @@ function App() {
     localStorage.setItem("highrise-projects", JSON.stringify(projects));
   }, [projects]);
 
+  const [currProject, setcurrProject] = useState<Project | null>(null);
+
   return (
     <>
       {projects.map((project) => (
-        <div key={project.id} onClick={() => console.log(project)}>
+        <div key={project.id} onClick={() => { setcurrProject(project); }}>
           <ProjectNode
             project={project}
             onPositionChange={(nextPosition) => handlePositionChange(project.id, nextPosition)}
@@ -99,15 +101,18 @@ function App() {
             to={{ x: 900, y: 600 }}
             color='gray'
           />
-        </div>
-      ))}
+        </div >
+      ))
+      }
 
-
-      {/* Side Panel Component */}
-      <SidePanel />
-
+      {currProject && (
+        <SidePanel
+          project={currProject}
+          onClose={() => setcurrProject(null)}
+        />)
+      }
     </>
-  )
+  );
 }
 
-export default App
+export default App;
