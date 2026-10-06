@@ -79,11 +79,22 @@ function App() {
     )
   }
 
+  const [currProject, setcurrProject] = useState<Project | null>(() => {
+    const lastProjectOnSideBar = localStorage.getItem("lastProjectOnSideBar");
+    if (!lastProjectOnSideBar) return null;
+
+    try {
+      const savedProject = JSON.parse(lastProjectOnSideBar) as Project | null;
+      return projects.find((project) => project.id === savedProject?.id) ?? null;
+    } catch {
+      return null;
+    }
+  });
+
   useEffect(() => {
     localStorage.setItem("highrise-projects", JSON.stringify(projects));
-  }, [projects]);
-
-  const [currProject, setcurrProject] = useState<Project | null>(null);
+    localStorage.setItem("lastProjectOnSideBar", JSON.stringify(currProject))
+  }, [projects, currProject]);
 
   return (
     <>
