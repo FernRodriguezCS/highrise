@@ -3,6 +3,12 @@ type ProjectPosition = {
   y: number;
 }
 
+type ActionItems = {
+  action: string;
+  difficulty: number;
+  description: string;
+}
+
 type Project = {
   id: number;
   name: string;
@@ -11,8 +17,9 @@ type Project = {
   "Code Ninjas" |
   "FWD:DYNAMICS" |
   "Consulting";
-  tickets: number;
+  ticketNum: number;
   position: ProjectPosition;
+  tickets?: ActionItems[];
 };
 
 export type { Project };

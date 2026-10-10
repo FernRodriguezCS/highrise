@@ -10,56 +10,56 @@ const Projects: Project[] = [
     id: 1,
     name: "2D Ratthew Render",
     group: "Personal Project",
-    tickets: 0,
+    ticketNum: 0,
     position: { x: 0, y: 0 }
   },
   {
     id: 2,
     name: "Portfolio Project",
     group: "Personal Project",
-    tickets: 3,
+    ticketNum: 3,
     position: { x: 0, y: 20 }
   },
   {
     id: 3,
     name: "Commerce Nexus",
     group: "FWD:DYNAMICS",
-    tickets: 3,
+    ticketNum: 3,
     position: { x: 0, y: 30 }
   },
   {
     id: 4,
     name: "Code Path",
     group: "Code Ninjas",
-    tickets: 3,
+    ticketNum: 3,
     position: { x: 0, y: 50 }
   },
   {
     id: 5,
     name: "Lunaris",
     group: "Personal Project",
-    tickets: 3,
+    ticketNum: 3,
     position: { x: 0, y: 70 }
   },
   {
     id: 6,
     name: "FernBudget",
     group: "Personal Project",
-    tickets: 3,
+    ticketNum: 3,
     position: { x: 0, y: 90 }
   },
   {
     id: 7,
     name: "Spell Sprint",
     group: "Personal Project",
-    tickets: 3,
+    ticketNum: 3,
     position: { x: 0, y: 110 }
   },
   {
     id: 8,
     name: "Bloody Rails",
     group: "Personal Project",
-    tickets: 3,
+    ticketNum: 3,
     position: { x: 0, y: 130 }
   },
 ]
