@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "name": "2D Ratthew Render",
+    "group": "Personal Project",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "tickets": [
+      {
+        "action": "Polish character lighting pass",
+        "difficulty": 2,
+        "description": "Refine the key and rim lighting so the character reads clearly in the final render.",
+        "dueDate": "2026-10-21",
+        "classification": "TICKET",
+        "status": "TODO",
+        "priority": 2
+      },
+      {
+        "action": "Fix shadow artifacts on turntable render",
+        "difficulty": 3,
+        "description": "Remove the flickering shadow artifacts that appear as the model rotates.",
+        "dueDate": "2026-10-24",
+        "classification": "BUG",
+        "status": "BACKLOG",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Project",
+    "group": "Personal Project",
+    "position": {
+      "x": 0,
+      "y": 20
+    },
+    "tickets": [
+      {
+        "action": "Make project grid responsive",
+        "difficulty": 2,
+        "description": "Adjust the portfolio project grid for tablet and mobile screen sizes.",
+        "dueDate": "2026-10-22",
+        "classification": "TICKET",
+        "status": "INPROGRESS",
+        "priority": 2
+      },
+      {
+        "action": "Add keyboard focus states",
+        "difficulty": 1,
+        "description": "Give links and interactive controls a clear visible focus state.",
+        "dueDate": "2026-10-27",
+        "classification": "TICKET",
+        "status": "BACKLOG",
+        "priority": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Commerce Nexus",
+    "group": "FWD:DYNAMICS",
+    "position": {
+      "x": 0,
+      "y": 30
+    },
+    "tickets": [
+      {
+        "action": "Validate cart item quantities",
+        "difficulty": 2,
+        "description": "Prevent checkout when a cart contains an invalid or unavailable quantity.",
+        "dueDate": "2026-10-23",
+        "classification": "TICKET",
+        "status": "TODO",
+        "priority": 1
+      },
+      {
+        "action": "Fix tax total rounding",
+        "difficulty": 3,
+        "description": "Ensure displayed tax and final checkout totals use consistent rounding.",
+        "dueDate": "2026-10-25",
+        "classification": "BUG",
+        "status": "NEEDSREVIEW",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Code Path",
+    "group": "Code Ninjas",
+    "position": {
+      "x": 0,
+      "y": 50
+    },
+    "tickets": [
+      {
+        "action": "Show exercise completion progress",
+        "difficulty": 2,
+        "description": "Display completed exercises and the learner's progress through each path.",
+        "dueDate": "2026-10-22",
+        "classification": "TICKET",
+        "status": "INPROGRESS",
+        "priority": 2
+      },
+      {
+        "action": "Fix score reset between attempts",
+        "difficulty": 2,
+        "description": "Reset the previous attempt's score when a learner starts an exercise again.",
+        "dueDate": "2026-10-26",
+        "classification": "BUG",
+        "status": "TODO",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lunaris",
+    "group": "Personal Project",
+    "position": {
+      "x": 0,
+      "y": 70
+    },
+    "tickets": [
+      {
+        "action": "Add lunar phase calendar view",
+        "difficulty": 3,
+        "description": "Show upcoming lunar phases in a monthly calendar layout.",
+        "dueDate": "2026-10-24",
+        "classification": "TICKET",
+        "status": "BACKLOG",
+        "priority": 2
+      },
+      {
+        "action": "Fix reminder time offset",
+        "difficulty": 2,
+        "description": "Use the selected local time when scheduling a phase reminder.",
+        "dueDate": "2026-10-28",
+        "classification": "BUG",
+        "status": "TODO",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "FernBudget",
+    "group": "Personal Project",
+    "position": {
+      "x": 0,
+      "y": 90
+    },
+    "tickets": [
+      {
+        "action": "Add monthly category spending chart",
+        "difficulty": 3,
+        "description": "Summarize monthly spending by category in a simple chart.",
+        "dueDate": "2026-10-25",
+        "classification": "TICKET",
+        "status": "TODO",
+        "priority": 2
+      },
+      {
+        "action": "Fix recurring transactions at month end",
+        "difficulty": 3,
+        "description": "Keep recurring transaction dates valid when the next month has fewer days.",
+        "dueDate": "2026-10-29",
+        "classification": "BUG",
+        "status": "BACKLOG",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Spell Sprint",
+    "group": "Personal Project",
+    "position": {
+      "x": 0,
+      "y": 110
+    },
+    "tickets": [
+      {
+        "action": "Track daily practice streak",
+        "difficulty": 2,
+        "description": "Show a learner's consecutive days of completed spelling practice.",
+        "dueDate": "2026-10-23",
+        "classification": "TICKET",
+        "status": "INPROGRESS",
+        "priority": 2
+      },
+      {
+        "action": "Reject duplicate answer submissions",
+        "difficulty": 1,
+        "description": "Ignore repeated submissions after an answer has already been checked.",
+        "dueDate": "2026-10-27",
+        "classification": "BUG",
+        "status": "TODO",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Bloody Rails",
+    "group": "Personal Project",
+    "position": {
+      "x": 0,
+      "y": 130
+    },
+    "tickets": [
+      {
+        "action": "Add route preview for the next train",
+        "difficulty": 3,
+        "description": "Preview the next train's route before confirming a dispatch.",
+        "dueDate": "2026-10-26",
+        "classification": "TICKET",
+        "status": "BACKLOG",
+        "priority": 2
+      },
+      {
+        "action": "Fix turn reset player control",
+        "difficulty": 2,
+        "description": "Restore control to the correct player after a turn resets.",
+        "dueDate": "2026-10-30",
+        "classification": "BUG",
+        "status": "TODO",
+        "priority": 1
+      }
+    ]
+  }
+]

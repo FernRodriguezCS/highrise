@@ -1,12 +1,8 @@
+import type { ActionItems } from "./actionItems";
+
 type ProjectPosition = {
   x: number;
   y: number;
-}
-
-type ActionItems = {
-  action: string;
-  difficulty: number;
-  description: string;
 }
 
 type Project = {
@@ -17,7 +13,6 @@ type Project = {
   "Code Ninjas" |
   "FWD:DYNAMICS" |
   "Consulting";
-  ticketNum: number;
   position: ProjectPosition;
   tickets?: ActionItems[];
 };
