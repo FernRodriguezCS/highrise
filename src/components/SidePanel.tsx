@@ -57,7 +57,7 @@ export default function SidePanel({ project, onClose }: SidePanelProps) {
                   <summary className="flex cursor-pointer list-none items-start gap-3 rounded-lg p-3 transition-colors duration-150 hover:bg-slate-50 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-sky-600 motion-reduce:transition-none [&::-webkit-details-marker]:hidden">
                     <div className="min-w-0 flex-1">
                       <h3 className="break-words text-sm font-medium leading-5 text-slate-900">
-                        {ticket.action}
+                        {`#${ticket.ticketNumber} ${ticket.action}`}
                       </h3>
                       <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-slate-500">
                         <span className="rounded border border-slate-200 px-1.5 py-0.5">

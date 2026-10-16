@@ -11,6 +11,7 @@
       {
         "action": "Polish character lighting pass",
         "difficulty": 2,
+        "ticketNumber": 344,
         "description": "Refine the key and rim lighting so the character reads clearly in the final render.",
         "dueDate": "2026-10-21",
         "classification": "TICKET",
@@ -20,6 +21,7 @@
       {
         "action": "Fix shadow artifacts on turntable render",
         "difficulty": 3,
+        "ticketNumber": 345,
         "description": "Remove the flickering shadow artifacts that appear as the model rotates.",
         "dueDate": "2026-10-24",
         "classification": "BUG",
@@ -40,6 +42,7 @@
       {
         "action": "Make project grid responsive",
         "difficulty": 2,
+        "ticketNumber": 346,
         "description": "Adjust the portfolio project grid for tablet and mobile screen sizes.",
         "dueDate": "2026-10-22",
         "classification": "TICKET",
@@ -49,6 +52,7 @@
       {
         "action": "Add keyboard focus states",
         "difficulty": 1,
+        "ticketNumber": 347,
         "description": "Give links and interactive controls a clear visible focus state.",
         "dueDate": "2026-10-27",
         "classification": "TICKET",
@@ -69,6 +73,7 @@
       {
         "action": "Validate cart item quantities",
         "difficulty": 2,
+        "ticketNumber": 348,
         "description": "Prevent checkout when a cart contains an invalid or unavailable quantity.",
         "dueDate": "2026-10-23",
         "classification": "TICKET",
@@ -78,6 +83,7 @@
       {
         "action": "Fix tax total rounding",
         "difficulty": 3,
+        "ticketNumber": 349,
         "description": "Ensure displayed tax and final checkout totals use consistent rounding.",
         "dueDate": "2026-10-25",
         "classification": "BUG",
@@ -98,6 +104,7 @@
       {
         "action": "Show exercise completion progress",
         "difficulty": 2,
+        "ticketNumber": 350,
         "description": "Display completed exercises and the learner's progress through each path.",
         "dueDate": "2026-10-22",
         "classification": "TICKET",
@@ -107,6 +114,7 @@
       {
         "action": "Fix score reset between attempts",
         "difficulty": 2,
+        "ticketNumber": 351,
         "description": "Reset the previous attempt's score when a learner starts an exercise again.",
         "dueDate": "2026-10-26",
         "classification": "BUG",
@@ -127,6 +135,7 @@
       {
         "action": "Add lunar phase calendar view",
         "difficulty": 3,
+        "ticketNumber": 352,
         "description": "Show upcoming lunar phases in a monthly calendar layout.",
         "dueDate": "2026-10-24",
         "classification": "TICKET",
@@ -136,6 +145,7 @@
       {
         "action": "Fix reminder time offset",
         "difficulty": 2,
+        "ticketNumber": 353,
         "description": "Use the selected local time when scheduling a phase reminder.",
         "dueDate": "2026-10-28",
         "classification": "BUG",
@@ -156,6 +166,7 @@
       {
         "action": "Add monthly category spending chart",
         "difficulty": 3,
+        "ticketNumber": 354,
         "description": "Summarize monthly spending by category in a simple chart.",
         "dueDate": "2026-10-25",
         "classification": "TICKET",
@@ -165,6 +176,7 @@
       {
         "action": "Fix recurring transactions at month end",
         "difficulty": 3,
+        "ticketNumber": 355,
         "description": "Keep recurring transaction dates valid when the next month has fewer days.",
         "dueDate": "2026-10-29",
         "classification": "BUG",
@@ -185,6 +197,7 @@
       {
         "action": "Track daily practice streak",
         "difficulty": 2,
+        "ticketNumber": 356,
         "description": "Show a learner's consecutive days of completed spelling practice.",
         "dueDate": "2026-10-23",
         "classification": "TICKET",
@@ -194,6 +207,7 @@
       {
         "action": "Reject duplicate answer submissions",
         "difficulty": 1,
+        "ticketNumber": 357,
         "description": "Ignore repeated submissions after an answer has already been checked.",
         "dueDate": "2026-10-27",
         "classification": "BUG",
@@ -214,6 +228,7 @@
       {
         "action": "Add route preview for the next train",
         "difficulty": 3,
+        "ticketNumber": 358,
         "description": "Preview the next train's route before confirming a dispatch.",
         "dueDate": "2026-10-26",
         "classification": "TICKET",
@@ -223,6 +238,7 @@
       {
         "action": "Fix turn reset player control",
         "difficulty": 2,
+        "ticketNumber": 359,
         "description": "Restore control to the correct player after a turn resets.",
         "dueDate": "2026-10-30",
         "classification": "BUG",
